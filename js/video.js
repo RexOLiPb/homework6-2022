@@ -1,3 +1,6 @@
+const redirect = () => {
+	window.location = "video.html"
+}
 
 
 const video = document.querySelector("#player1");
@@ -14,8 +17,6 @@ window.addEventListener("load", function () {
 	console.log("Good job opening the window")
 	video.autoplay = false
 	video.loop = false
-	window.location = "video.html"
-
 });
 
 document.querySelector("#play").addEventListener("click", () => {
