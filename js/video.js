@@ -47,7 +47,7 @@ document.querySelector("#skip").addEventListener('click', () => {
 	}
 	video.currentTime = newTime;
 
-	console.log(`Video jump forwarded 15s, currently at ${Math.round(newTime)}s `);
+	console.log(`Video jump forwarded 10s, currently at ${Math.round(newTime)}s `);
 
 })
 
