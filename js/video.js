@@ -28,19 +28,19 @@ document.querySelector("#pause").addEventListener('click', () => {
 })
 
 document.querySelector("#slower").addEventListener('click', () => {
-	video.playbackRate -= 0.05;
+	video.playbackRate -= 0.1;
 	console.log(`Current playback rate is slow down : ${Math.round(video.playbackRate * 100)} %`);
 
 })
 
 document.querySelector("#faster").addEventListener('click', () => {
-	video.playbackRate += 0.05;
+	video.playbackRate += 0.1;
 	console.log(`Current playback rate is seed up : ${Math.round(video.playbackRate * 100)} %`);
 
 })
 
 document.querySelector("#skip").addEventListener('click', () => {
-	let newTime = video.currentTime + 15;
+	let newTime = video.currentTime + 10;
 
 	if (newTime > video.duration) {
 		newTime = 0;
