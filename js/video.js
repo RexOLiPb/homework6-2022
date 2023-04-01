@@ -1,7 +1,3 @@
-const redirect = () => {
-	window.location = "video.html"
-}
-
 
 const video = document.querySelector("#player1");
 
